@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Register extends CI_Controller {
+class Welcome extends CI_Controller {
 
 	/**
 	 * Index Page for this controller.
@@ -20,8 +20,6 @@ class Register extends CI_Controller {
 	 */
 	public function index()
 	{
-		$mainView ='register/index';
-		$this->load->view('template', compact('mainView'));
-		
+		$this->load->view('welcome_message');
 	}
 }
