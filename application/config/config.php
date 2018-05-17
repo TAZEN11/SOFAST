@@ -23,7 +23,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | a PHP script and you can easily do that on your own.
 |
 */
+<<<<<<< HEAD
 $config['base_url'] = 'http://localhost/sofasti/';
+=======
+$config['base_url'] = '';
+>>>>>>> 28d885bbca0a93b4f4ae15df00d35a57feb36255
 
 /*
 |--------------------------------------------------------------------------
@@ -35,7 +39,11 @@ $config['base_url'] = 'http://localhost/sofasti/';
 | variable so that it is blank.
 |
 */
+<<<<<<< HEAD
 $config['index_page'] = '';
+=======
+$config['index_page'] = 'index.php';
+>>>>>>> 28d885bbca0a93b4f4ae15df00d35a57feb36255
 
 /*
 |--------------------------------------------------------------------------
