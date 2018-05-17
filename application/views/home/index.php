@@ -41,7 +41,11 @@
           
       </div>
       <div class="input-group">
+<<<<<<< HEAD
         <input type="password" name="password" class="form-control" placeholder="password">
+=======
+        <input type="password" class="form-control" placeholder="password">
+>>>>>>> a8d5780db937f5800594d38ca386a73ec9adc96e
 
         <div class="input-group-append">
           <button type="button" class="btn"><i class="fa fa-arrow-right text-muted"></i></button>
