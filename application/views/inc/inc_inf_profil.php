@@ -1,6 +1,6 @@
 <div class="card card-primary">
               <div class="card-header">
-                <h3 class="card-title">About Me</h3>
+                <h3 class="card-title">About Me <i class="fa fa-book right-1"></i></h3>
               </div>
               <!-- /.card-header -->
               <div class="card-body">
