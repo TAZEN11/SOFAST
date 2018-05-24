@@ -56,6 +56,11 @@
         		
 				<?php $this->load->view('inc/inc_img_profil')?>
 				<?php $this->load->view('inc/inc_inf_profil')?>
+        <div>
+          <a href="<?php anchor(site_url().'/profil/create');?>">input</a>
+
+
+        </div>
 			</div>
         	</div>
           

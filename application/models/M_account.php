@@ -6,4 +6,9 @@ class M_account extends CI_Model{
 	{
 		$this->db->insert('users', $data);
 	}
+
+	function info($data)
+	{
+		$this->db->insert('profil', $data);
+	}
 }

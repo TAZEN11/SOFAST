@@ -2,7 +2,7 @@
 
 <aside class="main-sidebar sidebar-dark-primary elevation-4">
     <!-- Brand Logo -->
-    <a href="<?php anchor(site_url().'/beranda'); ?>" class="brand-link">
+    <a href="<?php anchor(site_url().'beranda'); ?>" class="brand-link">
       <img src="<?= base_url('assets/img/tl.jpg');?>"
            alt="Sofast Logo"
            class="brand-image img-box elevation-3"
@@ -27,11 +27,12 @@
         <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
           <!-- Add icons to the links using the .nav-icon class
                with font-awesome or any other icon font library -->
+          <li class="nav-header">EXAMPLES</li>
           <li class="nav-item has-treeview">
             <a href="#" class="nav-link">
               <i class="nav-icon fa fa-th"></i>
               <p>
-                Dashboard
+                Private
                 <i class="right fa fa-angle-left"></i>
               </p>
             </a>
@@ -61,25 +62,25 @@
             <a href="#" class="nav-link">
               <i class="nav-icon fa fa-pie-chart"></i>
               <p>
-                Charts
+                Alumni
                 <i class="right fa fa-angle-left"></i>
               </p>
             </a>
             <ul class="nav nav-treeview">
               <li class="nav-item">
-                <a href="../charts/chartjs.html" class="nav-link">
+                <a href="#" class="nav-link">
                   <i class="fa fa-circle-o nav-icon"></i>
                   <p>ChartJS</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="../charts/flot.html" class="nav-link">
+                <a href="..//flot.html" class="nav-link">
                   <i class="fa fa-circle-o nav-icon"></i>
                   <p>Flot</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="../charts/inline.html" class="nav-link">
+                <a href="#" class="nav-link">
                   <i class="fa fa-circle-o nav-icon"></i>
                   <p>Inline</p>
                 </a>
@@ -96,7 +97,7 @@
             </a>
             <ul class="nav nav-treeview">
               <li class="nav-item">
-                <a href="../UI/general.html" class="nav-link">
+                <a href="#" class="nav-link">
                   <i class="fa fa-circle-o nav-icon"></i>
                   <p>General</p>
                 </a>
@@ -288,13 +289,7 @@
               </li>
             </ul>
           </li>
-          <li class="nav-header">MISCELLANEOUS</li>
-          <li class="nav-item">
-            <a href="https://adminlte.io/docs" class="nav-link">
-              <i class="nav-icon fa fa-file"></i>
-              <p>Documentation</p>
-            </a>
-          </li>
+         
           <li class="nav-header">LABELS</li>
           <li class="nav-item">
             <a href="#" class="nav-link">

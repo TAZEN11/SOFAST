@@ -1,3 +1,4 @@
+
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
  
@@ -7,13 +8,14 @@ class Register extends CI_Controller {
 		parent::__construct();
 		$this->load->library(array('form_validation'));
 		$this->load->helper(array('url','form'));
-		$this->load->model('m_account'); //call model
+		$this->load->model('M_account'); //call model
 	}
- 
+ 	
 	public function index() {
  
 		$this->form_validation->set_rules('name', 'NAME','required');
 		$this->form_validation->set_rules('username', 'USERNAME','required');
+
 		$this->form_validation->set_rules('email','EMAIL','required|valid_email');
 		$this->form_validation->set_rules('password','PASSWORD','required');
 		$this->form_validation->set_rules('password_conf','PASSWORD','required|matches[password]');
@@ -28,9 +30,11 @@ class Register extends CI_Controller {
  
 			$this->m_account->daftar($data);
 			 
-			$pesan['message'] =    "Pendaftaran berhasil";
+			$pesan['message'] = "Pendaftaran berhasil";
 			 
 			$this->load->view('account/v_success',$pesan);
 		}
 	}
+
+	
 }
